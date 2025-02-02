@@ -1,0 +1,67 @@
+name: wise
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_riverpod: ^2.6.1
+  get_it: ^8.0.2
+  dio: ^5.7.0
+  shared_preferences: ^2.3.2
+  flutter_screenutil: ^5.9.3
+  go_router: ^14.3.0
+  flutter_native_splash: ^2.4.2
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+  freezed_annotation: ^2.4.4
+  dartz: ^0.10.1
+  json_annotation: ^4.9.0
+  connectivity_plus: ^6.1.2
+  flash: ^3.1.1
+  rive: ^0.13.20
+  country_flags: ^3.2.0
+  intl: ^0.20.2
+  fluttertoast: ^8.2.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  freezed: ^2.5.7
+  json_serializable: ^6.9.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo/
+    - assets/animation/
+
+flutter_native_splash:
+  color: "#B4E878"
+  image: assets/logo/wise_splash.png
+
+  android_12:
+    image: assets/logo/wise_splash.png
+    color: "#B4E878"
+
+  android: true
+  ios: true
+  web: false
+
+  android_gravity: center
+  ios_content_mode: center
+  web_image_mode: center
+
+  color_android: "#B4E878"
+  color_dark_android: "#B4E878"
+  color_ios: "#B4E878"
+  color_dark_ios: "#B4E878"
+  color_web: "#B4E878"
+  color_dark_web: "#B4E878"
