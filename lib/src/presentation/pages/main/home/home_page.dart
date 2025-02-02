@@ -289,7 +289,7 @@ class _HomePageState extends ConsumerState<HomePage> with SingleTickerProviderSt
         ),
         20.verticalSpace,
         SizedBox(
-          height: 160.h,
+          height: 180.h,
           child: ListView.builder(
             scrollDirection: Axis.horizontal,
             physics: const BouncingScrollPhysics(),
